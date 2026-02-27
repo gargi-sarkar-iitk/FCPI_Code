@@ -70,7 +70,7 @@ To use the notebook with your own data, update the `DATA_PATH` variable in **Cel
 
 ## Notebook Walkthrough
 
-### `FCPI_v3_Updated.ipynb` — Main Experiments
+### `FCPI_Final.ipynb` — Main Experiments
 
 Run cells sequentially from top to bottom. Each section is self-contained with a markdown header.
 
@@ -126,31 +126,7 @@ When multiple platforms are detected in a narrative, the highest-risk tier is as
 
 ## Reproducing Paper Results
 
-All reported numbers are produced by running the main notebook end-to-end. Key output locations:
-
-| Paper Result | Notebook Location |
-|-------------|-------------------|
-| Table 2 (Weighting Schemes) | Cell 22 |
-| Table 3 (Component Diagnostics) | Cell 20 |
-| Table 4 (Top-K Mean Loss) | Cell 28–30 |
-| Table 5 (Method Comparison) | Cell 28 |
-| Table 6 (Ablation) | Cell 36 |
-| Table 7 (FCPI vs FCPI⁺) | Cell 44 |
-| Table 8 (SHAP Importance) | Cell 47 |
-| Table 9 (Case Explanations) | Cell 53 |
-| Figure 2 (Loss Distribution) | Cell 14 |
-| Figure 3 (Platform Enrichment) | Cell 8–10 |
-| Figure 4 (Scatter / Calibration) | Cell 61 |
-| Figure 5 (Top-K Performance) | Cell 30 |
-| Figure 6 (Circularity Analysis) | Cell 57 |
-| Figure 7 (Temporal Generalization) | Cell 59 |
-| Figure 8 (SHAP Global) | Cell 49 |
-| Figure 9 (SHAP Waterfall) | Cell 51 |
-| Spearman ρ = 0.9211 | Cell 22 or 28 |
-| AUC = 0.9558 | Cell 28 |
-| P@10% = 0.9959 | Cell 28 |
-
----
+All reported numbers are produced by running the main notebook end-to-end. 
 
 ## Configuration Reference
 
